@@ -1,5 +1,6 @@
 import './ModalMessageValidate.css'
-import { useState } from 'react';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 
 function ModalMessageValidate () {
   const [opened, setOpened] = useState(true);
