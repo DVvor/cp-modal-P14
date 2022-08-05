@@ -1,14 +1,7 @@
 import './ModalMessageValidate.css'
-import { useState } from 'react';
 import React from 'react';
 
-function ModalMessageValidate () {
-  const [opened, setOpened] = useState(true);
-
-  function closeModal() {
-    setOpened(false)
-  }
-
+function ModalMessageValidate ({opened, closeModal}) {
   if(opened) {
     return (
       <>
