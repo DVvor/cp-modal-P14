@@ -1,6 +1,6 @@
 {
   "name": "@dvor77/cpmodal",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A modal",
   "main": "build/ModalMessageValidate.js",
   "repository": {
