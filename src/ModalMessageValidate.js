@@ -3,11 +3,9 @@ import { useState } from 'react';
 
 function ModalMessageValidate () {
   const [opened, setOpened] = useState(true);
-  const navigate = useNavigate()
 
   function closeModal() {
     setOpened(false)
-    navigate(`/home`)
   }
 
   if(opened) {
