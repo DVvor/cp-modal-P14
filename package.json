@@ -1,13 +1,13 @@
 {
-  "name": "modal-message-validate",
+  "name": "@dvor77/cpmodal",
   "version": "0.1.0",
   "description": "A modal",
   "main": "build/ModalMessageValidate.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DVvor/my-modal-component"
+    "url": "https://github.com/DVvor/cp-modal-P14.git"
   },
-  "homepage": "https://github.com/DVvor/my-modal-component",
+  "homepage": "https://github.com/DVvor/cp-modal-P14.git",
   "scripts": {
     "test": "jest --env=jsdom",
     "start": "webpack --watch",
