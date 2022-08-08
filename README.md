@@ -1,7 +1,7 @@
 # Introduction
 This is a simple react modal
 
-![Alt text](./src/img/example.png)
+![Alt text](/src/img/example-modal.png)
 
 ## Installation
 
@@ -30,7 +30,7 @@ function YourComponent() {
   const title = "Congratulations" // Write your own title
   const subtitle = "The form is registered" // Write your own subtitle
   
-  // add this function in your react component to manage the closing of component
+  // add this function inside your react component to manage the closing of component
   function closeModal() {
     setOpened(false)
   }
