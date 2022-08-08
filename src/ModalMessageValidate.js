@@ -1,15 +1,15 @@
 import './ModalMessageValidate.css'
 import React from 'react';
 
-function ModalMessageValidate ({opened, closeModal}) {
+function ModalMessageValidate ({opened, closeModal, title, subtitle}) {
   if(opened) {
     return (
       <>
             <div className='modal-message'>
               <div className='modal-content'>
-                <p className='validate'>Registered!</p>
-                <div>The new employee is register</div>
-                <button className='btn-validate' onClick={closeModal}>close</button>
+                <p className='modal-title'>{title}</p>
+                <div className='modal-subtitle'>{subtitle}</div>
+                <button className='modal-btn-validate' onClick={closeModal}>close</button>
               </div>
             </div>
       </>

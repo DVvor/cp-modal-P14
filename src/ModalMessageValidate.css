@@ -21,7 +21,7 @@
   border-radius: 5px;
 }
 
-.btn-validate {
+.modal-btn-validate {
   margin-top: 15px;
   font-size: large;
   font-weight: 300;
@@ -31,12 +31,16 @@
   padding: 5px;
 }
 
-.validate {
+.modal-title {
   color: rgb(147, 173, 24);
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 20px;
   margin: 0;
+}
+
+.modal-subtitle {
+  font-size: large; 
 }
 
 .btn-validate:hover {
